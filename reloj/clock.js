@@ -18,7 +18,7 @@ var Reloj = function(){
   setInterval(function(){
     self.emit("hora", new Date())
   }
-  ,360000);
+  ,3600000);
 }
 
 inherits(Reloj, EventEmitter);
